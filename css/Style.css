@@ -1,0 +1,322 @@
+@font-face {
+  font-family: 'Nunito Sans', sans-serif;
+}
+body {
+  margin: 0px;
+}
+.bg {
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+.transform {
+  transition: all 1s;
+}
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+.wrapper-inside {
+  width: 1170px;
+  margin: 0 auto;
+}
+.line-hieght {
+  line-height: 60px;
+}
+.texthead {
+  font-size: 35px;
+}
+.seagradient {
+  background-image: linear-gradient(-225deg, #7956ec 0%, #2fb9f8 100%);
+}
+#navbarTogglerDemo01 ul li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#navbarTogglerDemo01 ul li .awhite {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.app-starter {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.transmenu:hover {
+  border-radius: 6px;
+  background-image: linear-gradient(106deg, #ff8e64, #ffe641);
+  border-radius: 25px;
+  transition: all 1s;
+}
+.boxshadow {
+  box-shadow: 0 6px 12px 0 rgba(40, 43, 49, 0.08);
+}
+button {
+  position: relative;
+  border: none;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+button:after {
+  content: "";
+  background: #64adee;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+.white-button {
+  box-shadow: 0 6px 12px 0 rgba(40, 43, 49, 0.08);
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: none;
+}
+.white-button a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #222222;
+}
+.white-button:hover {
+  border-radius: 6px;
+  background-image: linear-gradient(106deg, #ff8e64, #ffe641);
+  border-radius: 25px;
+  transition: border-radius 1s;
+}
+.white-button:hover a {
+  color: white;
+}
+.whitebtn {
+  padding: 8px 17px 8px 17px;
+}
+.whitebtn:active {
+  border: solid  2px #439ef3;
+  padding: 6px 15px 6px 15px;
+}
+.solar-button {
+  border-radius: 6px;
+  background-image: linear-gradient(106deg, #ff8e64, #ffe641);
+}
+.text300 {
+  font-weight: 300;
+}
+.textgrey16 {
+  color: #676c75;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.opacity08 {
+  opacity: 0.8;
+}
+base {
+  width: 100%;
+  height: 700px;
+  background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(32, 33, 39, 0.03));
+  box-shadow: 0 3px 6px 0 rgba(32, 33, 39, 0.12), inset 0 -2px 6px 0 rgba(40, 43, 49, 0.06);
+}
+.iconsize {
+  width: 24px;
+  height: 25px;
+  margin-right: 20px;
+}
+.alice-conteiner {
+  padding: 25px 25px;
+}
+.alice-conteiner h2 {
+  font-size: 16px;
+}
+.alice-conteiner .alice-discription {
+  font-size: 14px;
+  margin-left: 48px;
+}
+.alice-conteiner:hover {
+  box-shadow: 0 6px 12px 0 rgba(40, 43, 49, 0.08);
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+.fz35 {
+  font-size: 35px;
+}
+.imgcenter {
+  padding: 90px 75px 0px 75px;
+}
+.textcenter {
+  text-align: center;
+}
+.speacer {
+  width: 100%;
+  height: 120px;
+}
+.watchvideo {
+  width: 100%;
+  height: 520px;
+  background-image: url("../img/Imagebg-compressor.png"), linear-gradient(-225deg, #7956ec 0%, #2fb9f8 100%);
+}
+.watchvideo .circle {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  cursor: pointer;
+  position: relative;
+  top: 100px;
+  left: 300px;
+  -webkit-transition: height .25s ease, width .25s ease;
+  transition: height .25s ease, width .25s ease;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.watchvideo .circle:before,
+.watchvideo .circle:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+}
+.watchvideo .circle:before {
+  -webkit-animation: ripple 2s linear infinite;
+  animation: ripple 2s linear infinite;
+}
+.watchvideo .circle:after {
+  -webkit-animation: ripple 2s linear 1s infinite;
+  animation: ripple 2s linear 1s infinite;
+}
+.watchvideo .circle:hover:before,
+.watchvideo .circle:hover:after {
+  -webkit-animation: none;
+  animation: none;
+}
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.75);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+.watchvideo .plaicon {
+  margin-top: 23px;
+  margin-left: 26px;
+}
+.apply {
+  border-radius: 6px;
+  padding: 8px 35px 9px 35px;
+}
+.mycard {
+  border-radius: 12px;
+  width: 334px;
+  height: 470px;
+  margin: 5px 10px;
+}
+.mycard ol {
+  list-style: none;
+}
+.mycard .check {
+  margin-right: 14px;
+  fill: #999ea8;
+}
+.mycard .card-header {
+  color: #676c75;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.65px;
+}
+.mycard .card-title {
+  color: #282b31;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 54px;
+  text-transform: uppercase;
+}
+.mycard .card-text {
+  height: 136px;
+}
+.mycard .greenbtn {
+  width: 235px;
+  height: 50px;
+  box-shadow: 0 6px 12px rgba(40, 43, 49, 0.08);
+  border-radius: 6px;
+  background-image: linear-gradient(-225deg, #009fc5 0%, #3cecb0 100%);
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.mycard:hover {
+  width: 350px;
+  height: 510px;
+  margin: 5px -20px;
+  margin-top: -20px;
+  z-index: 500;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mycard:hover .card-header {
+  color: white;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+.mycard:hover .card-title {
+  color: white;
+  font-size: 60px;
+}
+.mycard:hover .card-body {
+  padding: 40px;
+}
+.mycard:hover .card-text {
+  margin-top: 25px;
+}
+.mycard:hover li {
+  color: white;
+}
+.mycard:hover li svg {
+  fill: white;
+}
+.mycard:hover .greenbtn {
+  margin-left: 20px;
+}
