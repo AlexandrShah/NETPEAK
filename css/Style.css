@@ -42,20 +42,11 @@ a:hover {
 #navbarTogglerDemo01 ul li .awhite {
   text-decoration: none;
   font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #ffffff;
 }
 .app-starter {
   font-size: 20px;
   font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #ffffff;
 }
 .transmenu:hover {
@@ -148,6 +139,10 @@ base {
   height: 700px;
   background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(32, 33, 39, 0.03));
   box-shadow: 0 3px 6px 0 rgba(32, 33, 39, 0.12), inset 0 -2px 6px 0 rgba(40, 43, 49, 0.06);
+}
+.container1 {
+  margin-top: 200px;
+  margin-bottom: 120px;
 }
 .iconsize {
   width: 24px;
@@ -292,6 +287,7 @@ base {
   height: 510px;
   margin: 5px -20px;
   margin-top: -20px;
+  margin-bottom: -25px;
   z-index: 500;
   background-image: url("../img/bg.png");
   background-repeat: no-repeat;
@@ -318,5 +314,254 @@ base {
   fill: white;
 }
 .mycard:hover .greenbtn {
-  margin-left: 20px;
+  width: 250px;
+  height: 50px;
+  margin-left: 15px;
+  border-radius: 6px;
+  background-image: linear-gradient(106deg, #ff8e64, #ffe641);
+}
+.myform {
+  width: 770px;
+  height: 500px;
+  border-radius: 12px;
+  padding: 70px 1px;
+  margin-top: 60px;
+}
+.myform .formholder .selectfield {
+  width: 305px;
+  border-radius: 6px;
+  background-color: #f8f9fa;
+  border: 1px solid #e7e8ea;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  padding-left: 21px;
+  margin: 10px 5px;
+  color: #b9bdc3;
+}
+.myform .formholder .inputfield {
+  width: 305px;
+  border-radius: 6px;
+  background-color: #f8f9fa;
+  border: 1px solid #e7e8ea;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  padding-left: 21px;
+  margin: 10px 5px;
+}
+.myform .formholder .textarea {
+  width: 305px;
+  border-radius: 6px;
+  background-color: #f8f9fa;
+  border: 1px solid #e7e8ea;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  padding-left: 21px;
+  margin: 10px 5px;
+  width: 630px;
+  height: 140px;
+  padding-left: 35px;
+}
+.myform .sendmsg {
+  width: 164px;
+  height: 50px;
+  border: none;
+  margin-top: 20px;
+}
+::-webkit-input-placeholder {
+  color: #b9bdc3;
+}
+::-moz-placeholder {
+  color: #b9bdc3;
+}
+/* Firefox 19+ */
+:-moz-placeholder {
+  color: #b9bdc3;
+}
+/* Firefox 18- */
+:-ms-input-placeholder {
+  color: #b9bdc3;
+}
+footer {
+  margin-top: 25px;
+}
+footer .footerapp {
+  font-size: 20px;
+  line-height: 27px;
+}
+footer .creat {
+  color: #999ea8;
+  font-size: 11px;
+  line-height: 15px;
+}
+footer .apper2017 {
+  /* Style for "© AppStart" */
+  color: #999ea8;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+}
+.margintop0 {
+  margin-top: 0px!important;
+}
+.marginbot0 {
+  margin-bottom: 0px!important;
+}
+.padding-top {
+  padding-top: 0px!important;
+}
+.padding-bottom {
+  padding-bottom: 0px!important;
+}
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    width: 100%;
+  }
+  .mrl0 {
+    margin-right: 0px!important;
+  }
+  .download-started {
+    padding-left: 20px!important;
+  }
+  .watchvideo .circle {
+    left: 230px;
+  }
+  .chose-plane {
+    padding-left: 20px!important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .base img {
+    margin-left: 0px!important;
+  }
+  .wrapper-inside {
+    width: 100%;
+  }
+  .imgcenter {
+    padding: 90px 0px 0px 20px;
+  }
+  .speacer {
+    height: 80px;
+  }
+  .watchvideo .circle {
+    left: 190px;
+  }
+  .chose-plane {
+    width: 100%!important;
+    margin-top: 0px!important;
+  }
+  .chose-plane h4 {
+    text-align: center;
+  }
+  .chose-plane section {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+  .chose-plane form {
+    text-align: center;
+  }
+  .mycard {
+    margin-left: 10%;
+  }
+  .mycard:hover {
+    margin-left: 10%;
+    margin-top: -20px;
+    margin-bottom: -40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 18px!important;
+  }
+  section {
+    font-size: 18px!important;
+  }
+  .wrapper-inside {
+    padding-bottom: 0px!important;
+  }
+  .wrapper-inside .row {
+    padding-bottom: 0px!important;
+  }
+  .wrapper-inside div {
+    margin-top: 0px!important;
+  }
+  .wrapper-inside .appheader {
+    text-align: center;
+  }
+  .wrapper-inside .btnhdr {
+    justify-content: center;
+  }
+  .wrapper-inside .base {
+    padding-left: 18%;
+  }
+  .wrapper-inside .base img {
+    position: relative!important;
+  }
+  .container1 {
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+    padding-left: 16%;
+    padding-top: 5%;
+    padding-bottom: 5% !important;
+  }
+  .container1 .col-sm-10 {
+    padding-left: 0px!important;
+  }
+  .btndwnld {
+    display: flex;
+    justify-content: center;
+  }
+  .download-started {
+    text-align: center;
+    padding-left: 0px!important;
+  }
+  .imgcenter {
+    padding: 30px 0px 0px 20% !important;
+  }
+  .order1 {
+    order: 1;
+  }
+  .order2 {
+    order: 2;
+  }
+  .pd {
+    padding: 5%;
+  }
+  .watchvideo .circle {
+    left: 350px;
+  }
+  .mycard {
+    margin-left: 3% !important;
+  }
+  .myform {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .wrapper {
+    width: 100%;
+  }
+  .base {
+    padding-left: 7% !important;
+  }
+  .container1 {
+    padding-left: 4%!important;
+  }
+  .imgcenter {
+    padding-left: 10%!important;
+  }
+  .watchvideo .circle {
+    left: 270px;
+  }
+  .mycard {
+    margin-left: 20%!important;
+  }
+  .myform {
+    padding-left: 23%!important;
+    padding-right: 23%!important;
+    height: auto;
+  }
+  .myform .textarea {
+    width: 305px!important;
+  }
 }
